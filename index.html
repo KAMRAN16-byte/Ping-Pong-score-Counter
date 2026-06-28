@@ -14,8 +14,8 @@
 </head>
 
 <body class="font-['Montserrat']">
-    <div class="flex flex-col items-center mt-10">
-        <div class="shadow-md bg-white w-120 overflow-hidden">
+    <div class="flex flex-col items-center md:w-full mt-10">
+        <div class="shadow-md bg-white overflow-hidden w-[60%] md:w-120">
             <div class="flex  items-center">
                 <img src="/src/From-Basement-to-Glory-The-Rise-and-Evolution-of-Ping-Pong-scaled.jpg"
                     class="w-full h-60" alt="Scoreboard">
@@ -24,7 +24,7 @@
                 <p class="text-xs font-bold">Ping Pong Score Keeper</p>
             </div>
         </div>
-        <div class="shadow-md bg-white w-120 mt-1">
+        <div class="shadow-md bg-white sm:w-60 md:w-120 mt-1">
             <div class="px-3 py-3">
                 <p class="text-4xl font-gray-700 font-bold display pt-2"><span id="player_one">0</span> to <span
                         id="player_two">0</span></p>
@@ -40,7 +40,7 @@
                 </select>
             </div>
 
-            <div class="flex items-center justify-around">
+            <div class="flex items-center justify-around flex-col md:flex-row">
                 <button id="Player_one_button"
                     class="bg-green-600 hover:bg-green-700 text-white font-semibold w-full py-2 mx-[1px] rounded-lg shadow-md transition duration-200  disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-green-600">
                     +1 Player One
